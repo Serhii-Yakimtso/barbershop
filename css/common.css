@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  /* outline: 1px solid tomato; */
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  display: inline-block;
+}
+
+button,
+label {
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
+}
+
+.section {
+  padding-top: 84px;
+  padding-bottom: 84px;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 32px;
+  padding-right: 32px;
+
+  width: 480px;
+}
