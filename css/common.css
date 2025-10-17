@@ -74,6 +74,8 @@ address {
   line-height: 1.36;
   letter-spacing: 1.1px;
   text-transform: uppercase;
+
+  color: #303030;
 }
 
 .line::before {
@@ -83,7 +85,7 @@ address {
 
   width: 60px;
   height: 1px;
-  background-color: rgb(157, 164, 189, 0.6);
+  background-color: #303030;
 }
 
 .text {
@@ -91,6 +93,7 @@ address {
   font-size: 16px;
   line-height: 1.625;
   letter-spacing: 1.02px;
+  color: #555555;
 }
 
 .link {
@@ -113,6 +116,8 @@ address {
   line-height: 1.333;
   letter-spacing: 1.1px;
   text-transform: uppercase;
+  color: #303030;
+
   max-width: max-content;
 }
 

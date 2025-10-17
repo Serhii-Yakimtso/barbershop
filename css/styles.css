@@ -57,6 +57,10 @@
   color: rgb(157, 164, 189, 0.6);
 }
 
+.header .line::before {
+  background-color: rgb(157, 164, 189, 0.6);
+}
+
 .hero .text {
   width: 306px;
 
@@ -177,6 +181,8 @@
 
   .hero .text {
     width: 400px;
+
+    color: #9da4bd;
   }
 
   .slider {
@@ -278,20 +284,12 @@
   display: none;
 }
 
-.about .text {
-  color: #555555;
-}
-
 .about .text:nth-child(n) {
   margin-bottom: 20px;
 }
 
 .about .text:nth-child(2n) {
   margin-bottom: 40px;
-}
-
-.about .btn {
-  color: #303030;
 }
 
 @media screen and (min-width: 768px) {
