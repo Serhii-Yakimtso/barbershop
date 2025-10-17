@@ -88,12 +88,33 @@
       <section id="about" class="section about">
         <div class="container">
           <div class="img-wrapper">
-            <img src="./assets/about-1-tablet.jpg" alt="гоління шиї" />
-            <img src="./assets/about-2-tablet.jpg" alt="гоління шиї" />
+            <img
+              srcset="
+                ./assets/about-1-tablet.jpg     330w,
+                ./assets/about-1-tablet@2x.jpg  660w,
+                ./assets/about-1-desktop.jpg    270w,
+                ./assets/about-1-desktop@2x.jpg 540w
+              "
+              sizes="(min-width: 1280px) 270px, (min-width: 768px) 330px, 100vw"
+              src="./assets/about-1-tablet.jpg"
+              alt="гоління шиї"
+            />
+            <img
+              srcset="
+                ./assets/about-2-tablet.jpg     330w,
+                ./assets/about-2-tablet@2x.jpg  660w,
+                ./assets/about-2-desktop.jpg    270w,
+                ./assets/about-2-desktop@2x.jpg 540w
+              "
+              sizes="(min-width: 1280px) 270px, (min-width: 768px) 330px, 100vw"
+              src="./assets/about-2-tablet.jpg"
+              alt="гоління шиї"
+            />
           </div>
+
           <div>
             <p class="sub-title line">
-              <strong>Найкращий барбершоп твого міста</strong>
+              <strong>Найкращий барбершоп міста</strong>
             </p>
 
             <h2 class="title">Про нас</h2>
@@ -117,19 +138,35 @@
 
       <section id="price" class="section">
         <div class="container">
-          <p>Проведи час у компанії найкращих майстрів</p>
-          <h2>Послуги та ціни</h2>
-          <ul>
-            <li><span>Чоловіча стрижка</span><span>600 грн</span></li>
-            <li><span>Стрижка бороди</span><span>400 грн</span></li>
-            <li><span>Стрижка вусів</span><span>200 грн</span></li>
-            <li><span>Гоління небезпечним лезом</span><span>400 грн</span></li>
-            <li><span>Стрижка у стажера</span><span>300 грн</span></li>
-            <li><span>Стрижка під насадку</span><span>300 грн</span></li>
-            <li>
+          <p class="sub-title line">
+            Проведи час у компанії найкращих майстрів
+          </p>
+          <h2 class="title">Послуги та ціни</h2>
+          <ul class="price-list">
+            <li class="price-item">
+              <span>Чоловіча стрижка</span><span>600 грн</span>
+            </li>
+            <li class="price-item">
+              <span>Стрижка бороди</span><span>400 грн</span>
+            </li>
+            <li class="price-item">
+              <span>Стрижка вусів</span><span>200 грн</span>
+            </li>
+            <li class="price-item">
+              <span>Гоління небезпечним лезом</span><span>400 грн</span>
+            </li>
+            <li class="price-item">
+              <span>Стрижка у стажера</span><span>300 грн</span>
+            </li>
+            <li class="price-item">
+              <span>Стрижка під насадку</span><span>300 грн</span>
+            </li>
+            <li class="price-item">
               <span>Дитяча стрижка (до 12 років)</span><span>600 грн</span>
             </li>
-            <li><span>Камуфлювання сивини</span><span>400 грн</span></li>
+            <li class="price-item">
+              <span>Камуфлювання сивини</span><span>400 грн</span>
+            </li>
           </ul>
           <a href="#form">онлайн-запис</a>
         </div>

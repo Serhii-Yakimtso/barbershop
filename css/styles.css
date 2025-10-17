@@ -58,6 +58,8 @@
 }
 
 .hero .text {
+  width: 306px;
+
   color: #9da4bd;
 }
 
@@ -272,15 +274,8 @@
 }
 
 /* about */
-.title {
-  margin-bottom: 20px;
-
-  font-family: "Raleway", sans-serif;
-  color: 303030;
-  font-weight: 700;
-  font-size: 28px;
-  line-height: 1.178;
-  letter-spacing: 1.05px;
+.img-wrapper {
+  display: none;
 }
 
 .about .text {
@@ -297,4 +292,35 @@
 
 .about .btn {
   color: #303030;
+}
+
+@media screen and (min-width: 768px) {
+  .about .container {
+    display: flex;
+    gap: 30px;
+  }
+
+  .img-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .img-wrapper img {
+    min-width: 330px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about .container {
+    gap: 60px;
+  }
+
+  .img-wrapper {
+    flex-direction: row;
+  }
+
+  .img-wrapper img {
+    min-width: 270px;
+  }
 }
