@@ -41,3 +41,22 @@ address {
 
   width: 480px;
 }
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding-left: 40px;
+    padding-right: 40px;
+
+    width: 768px;
+
+  }
+}
+  
+.link{
+  display: block;
+}
+
+.link:hover,
+.link:focus{
+  color: #FF6C00;
+}
