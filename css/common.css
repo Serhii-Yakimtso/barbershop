@@ -42,21 +42,81 @@ address {
   width: 480px;
 }
 
+.main-title {
+  margin-bottom: 20px;
+
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.167;
+  letter-spacing: 1.05px;
+  color: #ffffff;
+}
+
+.sub-title {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+}
+
+.line::before {
+  content: "";
+  display: inline-block;
+  margin-right: 20px;
+
+  width: 60px;
+  height: 1px;
+  background-color: rgb(157, 164, 189, 0.6);
+}
+
+.text {
+  width: 306px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.625;
+  letter-spacing: 1.02px;
+}
+
+.link {
+  display: block;
+}
+
+.link:hover,
+.link:focus {
+  color: #ff6c00;
+}
+
+.btn {
+  display: block;
+  padding: 11px 20px;
+  border: 1px solid #ff6c00;
+  border-radius: 20px;
+
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.333;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+  max-width: max-content;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #ff6c00;
+}
+
 @media screen and (min-width: 768px) {
   .container {
     padding-left: 40px;
     padding-right: 40px;
 
     width: 768px;
-
   }
-}
-  
-.link{
-  display: block;
-}
-
-.link:hover,
-.link:focus{
-  color: #FF6C00;
 }
